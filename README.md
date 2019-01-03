@@ -9,9 +9,9 @@ It runs on vk-sdk: <https://vk.com/dev/PHP_SDK>.
 
 1) Clone repo
 2) Load vk-sdk with composer (use composer.json)
-3) Check paths in 'homeBotProcess.sh'. This file would regulary start your scripts (long pooling and ip checker )
-4) Edit 'config.php'. Write your access token of the vk group and it's id.
-5) Edit 'ip_mailing/mailing.txt'. Just add the ids of users, who would get messages about changed ip.
+3) Check paths in `homeBotProcess.sh`. This file would regulary start your scripts (long pooling and ip checker )
+4) Edit `config.php`. Write your access token of the vk group and it's id.
+5) Edit `ip_mailing/mailing.txt`. Just add the ids of users, who would get messages about changed ip.
 6) Also add path to homeBotProcess.sh to '/etc/rc.local'.
 
 So... reboot. And it must be working.
